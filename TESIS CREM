@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+git add .
+git commit -m "Primer commit"
+git push -u origin main
+gh repo create tu-repositorio --public --source=. --remote=origin
